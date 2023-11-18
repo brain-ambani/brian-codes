@@ -1,10 +1,11 @@
 import React from "react";
+import "./Nav.css";
 
 export default function Nav() {
   return (
-    <div>
+    <div className="nav">
+      <h1>Brian</h1>
       <nav>
-        <h1>Brian</h1>
         <ul>
           <li>
             <a href="#about">About</a>
@@ -20,6 +21,7 @@ export default function Nav() {
           </li>
         </ul>
       </nav>
+      <button>Resume</button>
     </div>
   );
 }
