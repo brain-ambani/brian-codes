@@ -1,12 +1,11 @@
 import React from "react";
 import "./hero.css";
-import myprofile from "../../assets/myprofile.jpg";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Hero() {
   return (
     <div className="hero">
-      <img className="profile" src={myprofile} alt="profile" />
+      <img className="profile" src="https://github/avatar.png" alt="profile" />
       <h2>Brian Ambani</h2>
       <h1>I build interactive web stuff.</h1>
       <p>
@@ -16,13 +15,25 @@ export default function Hero() {
         deliver solutions that exceed expectations.
       </p>
       <div className="socials">
-        <a href="#">
+        <a
+          href="https://github.com/brian-ambani"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaGithub />
         </a>
-        <a href="#">
+        <a
+          href="linkedin.com/in/brain-ambani-91522b172/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedin />
         </a>
-        <a href="#">
+        <a
+          href="https://twitter.com/brain_ambani"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaTwitter />
         </a>
       </div>
