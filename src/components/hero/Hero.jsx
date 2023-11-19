@@ -4,8 +4,12 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <div className="hero">
-      <img className="profile" src="https://github/avatar.png" alt="profile" />
+    <div className="hero" id="home">
+      <img
+        className="profile"
+        src="https://images.pexels.com/photos/7485787/pexels-photo-7485787.jpeg"
+        alt="profile"
+      />
       <h2>Brian Ambani</h2>
       <h1>I build interactive web stuff.</h1>
       <p>

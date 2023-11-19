@@ -1,0 +1,38 @@
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-wrapper {
+  display: flex;
+}
+
+.about-wrapper .card {
+  margin: 0 1rem;
+  padding: 1rem;
+  background-color: #0c0230;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(66, 65, 65, 0.5);
+  width: 450px;
+}
+
+.card-skill {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.skill {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.skill {
+  color: #f7df1e;
+  size: 100px;
+}

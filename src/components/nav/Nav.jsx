@@ -5,7 +5,10 @@ import { MdOutlineLightMode } from "react-icons/md";
 export default function Nav() {
   return (
     <div className="nav">
-      <h1>Brian</h1>
+      <a href="#home" className="nav-logo">
+        Brian
+      </a>
+
       <div className="nav-items">
         <ul>
           <li>
@@ -21,7 +24,9 @@ export default function Nav() {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="#contact">Resume</a>
+            <a href="#contact" className="btn">
+              Resume
+            </a>
           </li>
         </ul>
       </div>
