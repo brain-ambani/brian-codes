@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <div className="nav">
       <h1>Brian</h1>
-      <nav>
+      <div className="nav-items">
         <ul>
           <li>
             <a href="#about">About</a>
@@ -19,9 +19,12 @@ export default function Nav() {
           <li>
             <a href="#contact">Contact</a>
           </li>
+          <li>
+            <a href="#contact">Resume</a>
+          </li>
         </ul>
-      </nav>
-      <button>Resume</button>
+      </div>
+      <button className="btn btn-switchmode">dark</button>
     </div>
   );
 }

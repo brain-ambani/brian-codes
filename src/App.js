@@ -3,7 +3,7 @@ import ComponentWrapper from "./components/ComponentWrapper";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <ComponentWrapper />
     </div>
   );
