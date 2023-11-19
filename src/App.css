@@ -20,7 +20,11 @@ ul {
   margin: 0 auto;
 }
 
-/* .btn {
-  padding: 8px;
-  width: ;
-} */
+.btn {
+  padding: 8px 2rem;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
