@@ -11,6 +11,9 @@ export default function Contact() {
         open. Whether you have a project or just want to say hi, I’ll get back
         to you!
       </p>
+      <a href="mailto:brainambani1@gmail.com" className="btn">
+        Get In Touch
+      </a>
       <div className="socials">
         <a
           href="https://github.com/brian-ambani"
@@ -34,9 +37,8 @@ export default function Contact() {
           <FaTwitter />
         </a>
       </div>
-      <button className="btn">Get in touch</button>
 
-      <p>&copy; Copyright 2023. All right reserved</p>
+      <p className="copyright">Copyright&copy;: 2023</p>
     </div>
   );
 }

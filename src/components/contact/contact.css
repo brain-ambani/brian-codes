@@ -1,3 +1,48 @@
-.contact{
-    margin-bottom:2.2rem;
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.contact p {
+  width: 80%;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.contact a {
+  font-size: 1.2rem;
+  color: #f7df1e;
+  text-decoration: none;
+  margin-bottom: 1.2rem;
+}
+
+.contact a:hover {
+  color: #f7df1e;
+}
+
+.contact .btn {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.contact .btn:hover {
+  background-color: #f7df1e;
+  color: #0c0230;
+  transition: all 0.3s ease-in-out;
+}
+
+.copyright {
+  background-color: #0c0230;
+  color: #f7df1e;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
 }
