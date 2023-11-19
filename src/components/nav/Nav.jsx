@@ -1,5 +1,6 @@
 import React from "react";
 import "./Nav.css";
+import { MdOutlineLightMode } from "react-icons/md";
 
 export default function Nav() {
   return (
@@ -24,7 +25,9 @@ export default function Nav() {
           </li>
         </ul>
       </div>
-      <button className="btn btn-switchmode">dark</button>
+      <button className="btn btn-switchmode">
+        <MdOutlineLightMode />
+      </button>
     </div>
   );
 }
