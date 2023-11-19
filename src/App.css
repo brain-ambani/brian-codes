@@ -3,12 +3,10 @@
   margin: 0;
   font-family: "Roboto Mono", monospace;
   color: #eee;
-  background: #0f023d;
 }
 
 .App {
-  width: 80%;
-  margin: 0 auto;
+  background-color: #0c0230;
 }
 
 a {
