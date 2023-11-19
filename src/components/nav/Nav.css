@@ -3,10 +3,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 2rem;
-  background: #0c0230;
-  color: var(--color-text);
-  box-shadow: 0 0 10px #0000001a;
   position: sticky;
+  background-color: #0c0230;
+
+  opacity: 0.9;
   top: 0;
   z-index: 999;
 }
