@@ -2,11 +2,12 @@
   padding: 0;
   margin: 0;
   font-family: "Roboto Mono", monospace;
-  color: #eee;
+  box-sizing: border-box;
 }
 
 .App {
-  background-color: #0c0230;
+  background-color: #151b54;
+  color: aliceblue;
 }
 
 a {
@@ -34,18 +35,34 @@ ul {
 }
 
 .socials a {
-  color: #be2424;
-  font-size: 1.5rem;
+  margin-left: 1rem;
 }
 
 .socials a:hover {
   color: #0f023d;
 }
 
+.socials a {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.socials a .twitter {
+  color: #1da1f2;
+}
+
+.socials a .linkedin {
+  color: #0a66c2;
+}
+
+.socials a .github {
+  color: white;
+}
+
 .btn {
   background: #0f023d;
   color: #f7df1e;
-  border: 1px solid #eee;
+  border: 1px solid #726f6f;
   transition: all 0.3s ease-in-out;
 }
 
