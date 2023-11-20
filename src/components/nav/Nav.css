@@ -90,35 +90,24 @@
   }
 }
 
-@media screen and(max-width: 500px) {
+@media screen and (max-width: 500px) {
+  .nav-items ul li {
+    margin-left: 1rem;
+  }
+
   .nav {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nav-logo {
-    display: block;
+    align-items: center;
   }
 
   .nav-items ul {
+    width: 100%;
     flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  .nav-items ul li {
-    margin-left: 2rem;
-    padding: 8px 0;
-    width: 100%;
-    text-align: center;
-  }
-
-  .nav-items ul li .btn {
-    width: 100%;
+    align-items: center;
   }
 
   .resume {
-    margin-left: 2rem;
+    margin-top: 1rem;
   }
 }
