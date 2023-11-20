@@ -70,38 +70,3 @@ ul {
   background: #f7df1e;
   color: #0f023d;
 }
-
-@media screen and (max-width: 768px) {
-  .socials {
-    width: 20%;
-  }
-  .nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: auto;
-  }
-
-  .nav-logo {
-    display: none;
-  }
-  .about-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-  }
-  .card {
-    width: 500px;
-  }
-  .card-skill {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
