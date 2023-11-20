@@ -32,18 +32,15 @@ export default function About() {
           </p>
         </div>
         <div className="card card-skill">
-          <SiJavascript
-            className="skill skill-js"
-            style={{ color: "yellow", size: "100px" }}
-          />
-          <FaReact className="skill" />
-          <TbBrandNextjs className="skill" />
-          <SiTailwindcss className="skill" />
-          <FaNodeJs className="skill" />
-          <FaGithub className="skill" />
-          <SiExpress className="skill" />
-          <SiTypescript className="skill" />
-          <SiMongodb className="skill" />
+          <SiJavascript className="skill js-icon" />
+          <FaReact className="skill react-icon" />
+          <TbBrandNextjs className="skill nextjs-icon" />
+          <SiTailwindcss className="skill tailwind-icon" />
+          <FaNodeJs className="skill nodejs-icon" />
+          <FaGithub className="skill github-icon" />
+          <SiExpress className="skill express-icon" />
+          <SiTypescript className="skill typescript-icon" />
+          <SiMongodb className="skill mongodb-icon" />
         </div>
       </div>
     </div>

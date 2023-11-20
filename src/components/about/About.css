@@ -7,6 +7,13 @@
   text-align: center;
 }
 
+.about h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #cecece;
+  margin-bottom: 1.2rem;
+}
+
 .about-wrapper {
   display: flex;
 }
@@ -14,7 +21,7 @@
 .about-wrapper .card {
   margin: 0 1rem;
   padding: 1rem;
-  background-color: #0c0230;
+  background-color: #15317e;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(66, 65, 65, 0.5);
   width: 450px;
@@ -29,10 +36,42 @@
 .skill {
   width: 100px;
   height: 100px;
-  margin: 0 auto;
+  margin: 1.5px;
+  border-radius: 5px;
 }
 
-.skill {
+.js-icon {
   color: #f7df1e;
-  size: 100px;
+}
+
+.react-icon {
+  color: #61dafb;
+}
+
+.nodejs-icon {
+  color: #68a063;
+}
+
+.nextjs-icon {
+  color: #928888;
+}
+
+.tailwind-icon {
+  color: #06b6d4;
+}
+
+.mongodb-icon {
+  color: #4db33d;
+}
+
+.typescript-icon {
+  color: #007acc;
+}
+
+.express-icon {
+  color: #000000;
+}
+
+.github-icon {
+  color: #ffffff;
 }
