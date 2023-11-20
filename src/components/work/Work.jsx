@@ -9,7 +9,7 @@ export default function Work() {
       <div className="project-cards">
         <div class="project-card">
           <img src={hosting} width={300} height={200} alt="project 1" />
-          <h3>Project 1</h3>
+          <h3>FLIN X Hosting</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             voluptatem, quidem iusto, quibusdam, quod voluptates accusamus
