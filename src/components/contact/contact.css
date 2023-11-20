@@ -20,13 +20,24 @@
 
 .contact a {
   font-size: 1.2rem;
-  color: #f7df1e;
   text-decoration: none;
   margin-bottom: 1.2rem;
 }
 
 .contact a:hover {
   color: #f7df1e;
+}
+
+.contact .socials {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  margin: 1.5rem 2.5rem 1.5rem 0;
+}
+
+.contact .socials a {
+  margin-left: 1rem;
+  font-size: 1.5rem;
 }
 
 .contact .btn {
@@ -41,9 +52,7 @@
 }
 
 .copyright {
-  background-color: #0c0230;
-  color: #f7df1e;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
 }

@@ -20,21 +20,21 @@ export default function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          <FaGithub />
+          <FaGithub className="github" />
         </a>
         <a
           href="linkedin.com/in/brain-ambani-91522b172/"
           target="_blank"
           rel="noreferrer"
         >
-          <FaLinkedin />
+          <FaLinkedin className="linkedin" />
         </a>
         <a
           href="https://twitter.com/brain_ambani"
           target="_blank"
           rel="noreferrer"
         >
-          <FaTwitter />
+          <FaTwitter className="twitter" />
         </a>
       </div>
 
