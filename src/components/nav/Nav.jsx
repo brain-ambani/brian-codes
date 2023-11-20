@@ -24,7 +24,7 @@ export default function Nav() {
           </li>
         </ul>
       </div>
-      <a href="#contact" className="btn">
+      <a href="#contact" className="btn resume">
         Resume
       </a>
     </div>

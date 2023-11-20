@@ -66,3 +66,13 @@
   background-color: #f7df1e;
   color: #0c0230;
 }
+
+@media screen and (max-width: 768px) {
+  .project-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  .project-card {
+    width: 330px;
+  }
+}
