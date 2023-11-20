@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .contact h1 {
@@ -56,4 +57,14 @@
   text-align: center;
   padding: 1rem;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .contact p {
+    width: 80%;
+  }
+
+  .contact .socials {
+    width: 20%;
+  }
 }

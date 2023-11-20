@@ -76,3 +76,13 @@
     width: 330px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .project-cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+  .project-card {
+    width: 380px;
+  }
+}

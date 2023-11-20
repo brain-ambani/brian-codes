@@ -77,10 +77,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .about {
-    padding-top: 100px;
-  }
-
   .about-wrapper {
     display: flex;
     flex-direction: column;
@@ -98,5 +94,26 @@
 
   .card {
     width: 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about {
+    padding-top: 100px;
+  }
+
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-wrapper .card {
+    margin: 1rem 0;
+    width: 100%;
+    width: 400px;
+  }
+
+  .about-wrapper .card-skills {
+    margin-top: 3rem;
   }
 }
