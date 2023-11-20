@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="hero" id="home">
       <img
         className="profile"
-        src="https://images.pexels.com/photos/7485787/pexels-photo-7485787.jpeg"
+        src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg"
         alt="profile"
       />
       <h2>Brian Ambani</h2>
@@ -24,24 +24,24 @@ export default function Hero() {
           target="_blank"
           rel="noreferrer"
         >
-          <FaGithub />
+          <FaGithub className="github" />
         </a>
         <a
           href="linkedin.com/in/brain-ambani-91522b172/"
           target="_blank"
           rel="noreferrer"
         >
-          <FaLinkedin />
+          <FaLinkedin className="linkedin" />
         </a>
         <a
           href="https://twitter.com/brain_ambani"
           target="_blank"
           rel="noreferrer"
         >
-          <FaTwitter />
+          <FaTwitter className="twitter" />
         </a>
       </div>
-      <button className="btn">Get in touch</button>
+      <button className="btn btn-hero">Get in touch</button>
     </div>
   );
 }

@@ -32,3 +32,40 @@
   width: 60%;
   line-height: 1.8rem;
 }
+
+.hero .socials {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  margin: 1.5rem 2.5rem 1.5rem 0;
+}
+
+.hero .socials a {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.hero .socials a .twitter {
+  color: #1da1f2;
+}
+
+.hero .socials a .linkedin {
+  color: #0a66c2;
+}
+
+.hero .socials a .github {
+  color: white;
+}
+
+.hero .btn {
+  background: #0f023d;
+  color: #f7df1e;
+  border: 1px solid #726f6f;
+  transition: all 0.3s ease-in-out;
+  margin-left: 1rem;
+}
+
+.hero .btn:hover {
+  background: #f7df1e;
+  color: #0f023d;
+}
