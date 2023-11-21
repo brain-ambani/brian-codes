@@ -1,32 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"; // Import icons
 import "./Nav.css";
 
-export default function Nav() {
-  return (
-    <div className="nav">
-      <a href="#home" className="nav-logo">
-        Brian
-      </a>
+const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false);
 
-      <div className="nav-items">
-        <ul>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
+  return (
+    <nav className="navbar">
+      <div className="logo">Brian</div>
+      <div className={`nav-links ${showMenu ? "show" : ""}`}>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
       </div>
-      <a href="#contact" className="btn resume">
-        Resume
-      </a>
-    </div>
+      <button className="btn cv-button">Download CV</button>
+      <div className="menu-icon" onClick={toggleMenu}>
+        {showMenu ? <AiOutlineClose /> : <AiOutlineMenu />}
+      </div>
+    </nav>
   );
-}
+};
+
+export default Navbar;

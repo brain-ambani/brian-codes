@@ -1,10 +1,10 @@
-.nav {
+/* .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 2rem;
   position: sticky;
-  /* background-color: #0c0230; */
+  
   background-color: #151b54;
 
   opacity: 0.9;
@@ -59,12 +59,26 @@
   height: 40px;
 }
 
+.nav-menu {
+  display: none;
+}
+
+.nav .nav-items #hidden {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
   .nav {
     margin: 0 auto;
     align-items: flex-start;
   }
 
+  .resume {
+    margin-left: 2rem;
+  }
   .nav-logo {
     display: none;
   }
@@ -101,13 +115,125 @@
     align-items: center;
   }
 
-  .nav-items ul {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
+  .nav .nav-items #hidden {
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    background: #151b54;
+  }
+  .nav-logo {
+    display: block;
+    margin-right: 17rem;
   }
 
   .resume {
     margin-top: 1rem;
+    display: none;
+  }
+
+  .nav-menu {
+    display: block;
+    font-size: 2rem;
+    margin-left: 19rem;
+    margin-top: -2rem;
+  }
+} */
+
+/* Navbar.css */
+
+/* ... (previous styles) */
+
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #151b54;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cv-button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+
+  .nav-links a {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+
+  .navbar:hover .nav-links {
+    display: flex;
+  }
+}
+
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links a {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+
+  .navbar:hover .nav-links {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
   }
 }
