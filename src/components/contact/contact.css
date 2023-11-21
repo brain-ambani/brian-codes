@@ -60,8 +60,15 @@
 }
 
 @media screen and (max-width: 500px) {
+  .contact {
+    margin-top: 100px;
+  }
+  .contact h1 {
+    font-size: 2rem;
+  }
   .contact p {
-    width: 80%;
+    font-size: 1rem;
+    width: 100%;
   }
 
   .contact .socials {
