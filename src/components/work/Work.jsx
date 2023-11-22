@@ -77,7 +77,7 @@ export default function Work() {
             Live Preview
           </a>
           <a
-            href="https://github.com/brian-ambani/"
+            href="https://github.com/brian-ambani/workout-buddy/"
             target="_blank"
             rel="noreferrer"
             className=" btn-work"
