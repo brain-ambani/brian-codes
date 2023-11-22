@@ -25,9 +25,34 @@
   background-color: #0c0230;
   border-radius: 5px;
   width: 350px;
+
   box-shadow: 0 0 10px rgba(66, 65, 65, 0.5);
   padding: 1rem;
   text-align: center;
+}
+
+.tracker-card {
+  height: 500px;
+}
+
+.tracker-card .btn-work {
+  margin-top: 1rem;
+  background-color: #15317e;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+
+  color: #f7df1e;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.status {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-card img {
