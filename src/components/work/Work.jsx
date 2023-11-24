@@ -2,6 +2,7 @@ import React from "react";
 import "./Work.css";
 import hosting from "../../assets/hosting.png";
 import tracker from "..//../assets/tracker.png";
+import workoutbuddy from "../../assets/workoutbuddy.png";
 
 export default function Work() {
   return (
@@ -68,7 +69,7 @@ export default function Work() {
           </div>
         </div>
         <div class="project-card tracker-card">
-          <img src={hosting} width={300} height={200} alt="project 1" />
+          <img src={workoutbuddy} width={300} height={200} alt="project 1" />
           <h3>Workout Buddy</h3>
           <p>
             MERN stack application for tracking workouts and fitness progress.
