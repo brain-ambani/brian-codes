@@ -7,7 +7,7 @@ import Hero from "./hero/Hero";
 
 export default function ComponentWrapper() {
   return (
-    <div style={{ width: "80%", margin: "0 auto" }}>
+    <div className="wrapper" style={{ width: "80%", margin: "0 auto" }}>
       <Nav />
       <Hero />
       <About />
