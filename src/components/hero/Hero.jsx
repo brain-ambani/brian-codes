@@ -41,7 +41,10 @@ export default function Hero() {
           <FaTwitter className="twitter" />
         </a>
       </div>
-      <button className="btn btn-hero">Get in touch</button>
+      <a href="mailto:brainambani1@gmail.com" className="btn">
+        Get In Touch
+      </a>
+      {/* <button className="btn btn-hero">Get in touch</button> */}
     </div>
   );
 }
