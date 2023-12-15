@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"; // Import icons
 import "./Nav.css";
+import cv from "../../assets/brain-ambani-cv.pdf";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -19,12 +20,7 @@ const Navbar = () => {
         <a href="#contact">Contact</a>
       </div>
       <button className="btn cv-button">
-        <a
-          href="assets/braian-ambani-cv.pdf"
-          download
-          // target="_blank"
-          // rel="noreferrer"
-        >
+        <a href={cv} download>
           Download CV
         </a>
       </button>
