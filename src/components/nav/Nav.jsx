@@ -18,7 +18,15 @@ const Navbar = () => {
         <a href="#work">Work</a>
         <a href="#contact">Contact</a>
       </div>
-      <button className="btn cv-button">Download CV</button>
+      <button className="btn cv-button">
+        <a
+          href="https://1drv.ms/b/s!AqJR2j3JhyyxhCIcynDpFgz4pzxb?e=m0eVHn"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Download CV
+        </a>
+      </button>
       <div className="menu-icon" onClick={toggleMenu}>
         {showMenu ? <AiOutlineClose /> : <AiOutlineMenu />}
       </div>

@@ -37,6 +37,11 @@
   cursor: pointer;
 }
 
+.cv-button a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Media query for responsive design */
 @media (max-width: 768px) {
   .nav-links {
