@@ -27,7 +27,7 @@ export default function Hero() {
           <FaGithub className="github" />
         </a>
         <a
-          href="linkedin.com/in/brain-ambani-91522b172/"
+          href="linkedin.com/in/brain-ambani/"
           target="_blank"
           rel="noreferrer"
         >
