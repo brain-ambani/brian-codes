@@ -22,7 +22,11 @@ export default function Contact() {
         >
           <FaGithub className="github" />
         </a>
-        <a href="linkedin.com/in/brain-ambani" target="_blank" rel="noreferrer">
+        <a
+          href="https://linkedin.com/in/brain-ambani"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedin className="linkedin" />
         </a>
         <a
