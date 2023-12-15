@@ -20,9 +20,10 @@ const Navbar = () => {
       </div>
       <button className="btn cv-button">
         <a
-          href="https://1drv.ms/b/s!AqJR2j3JhyyxhCIcynDpFgz4pzxb?e=m0eVHn"
-          target="_blank"
-          rel="noreferrer"
+          href="assets/braian-ambani-cv.pdf"
+          download
+          // target="_blank"
+          // rel="noreferrer"
         >
           Download CV
         </a>
