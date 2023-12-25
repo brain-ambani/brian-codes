@@ -1,6 +1,6 @@
 import React from "react";
 import "./Work.css";
-import hosting from "../../assets/hosting.png";
+import hulu from "../../assets/hulu.png";
 import tracker from "..//../assets/tracker.png";
 import workoutbuddy from "../../assets/workoutbuddy.png";
 
@@ -92,17 +92,20 @@ export default function Work() {
           </div>
         </div>
         <div class="project-card tracker-card">
-          <img src={hosting} width={300} height={200} alt="project thumbnail" />
-          <h3>Memories App</h3>
+          <img src={hulu} width={300} height={200} alt="project thumbnail" />
+          <h3>Hulu App</h3>
           <p>
-            A fullstack MERN application for storing memories and photos with a
-            simple UI.
+            A clone of the popular streaming service Hulu built with React and
+            Tailwind CSS.
           </p>
-          <a href="#work" className=" btn-work">
+          <a
+            href="https://hulu-clone-app-weld.vercel.app/"
+            className=" btn-work"
+          >
             Live Preview
           </a>
           <a
-            href="https://github.com/brian-ambani/memories-mern-app"
+            href="https://github.com/brian-ambani/hulu-clone"
             target="_blank"
             rel="noreferrer"
             className=" btn-work"
