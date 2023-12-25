@@ -2,6 +2,7 @@ import React from "react";
 import "./Work.css";
 import hulu from "../../assets/hulu.png";
 import tracker from "..//../assets/tracker.png";
+import hosting from "../../assets/hosting.png";
 import workoutbuddy from "../../assets/workoutbuddy.png";
 
 export default function Work() {
