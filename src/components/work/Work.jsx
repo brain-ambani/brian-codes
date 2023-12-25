@@ -79,6 +79,8 @@ export default function Work() {
           <a
             href="https://hulu-clone-app-weld.vercel.app/"
             className=" btn-work"
+            target="_blank"
+            rel="noreferrer"
           >
             Live Preview
           </a>
