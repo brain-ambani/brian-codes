@@ -1,12 +1,17 @@
 import React from "react";
 import "./hero.css";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import profile from "../../assets/profile.png";
+import profile from "../../assets/profile.jpg";
 
 export default function Hero() {
   return (
     <div className="hero" id="home">
-      <img className="profile" src={profile} alt="profile" />
+      <img
+        className="profile"
+        src={profile}
+        alt="profile"
+        style={{ objectFit: "cover" }}
+      />
       <h2>Brian Ambani</h2>
       <h1>I build interactive web stuff.</h1>
       <p>
