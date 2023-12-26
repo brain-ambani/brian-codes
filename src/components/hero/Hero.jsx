@@ -1,15 +1,12 @@
 import React from "react";
 import "./hero.css";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import profile from "../../assets/profile.png";
 
 export default function Hero() {
   return (
     <div className="hero" id="home">
-      <img
-        className="profile"
-        src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg"
-        alt="profile"
-      />
+      <img className="profile" src={profile} alt="profile" />
       <h2>Brian Ambani</h2>
       <h1>I build interactive web stuff.</h1>
       <p>
