@@ -38,7 +38,7 @@ export default function Contact() {
         </a>
       </div>
 
-      <p className="copyright">Copyright&copy;: 2023</p>
+      <p className="copyright">Copyright&copy;: 2024</p>
     </div>
   );
 }
